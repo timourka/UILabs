@@ -99,7 +99,7 @@
         </Button>
         <Button Grid.Column="0" Grid.Row="1">
             <Viewbox>
-                <TextBlock Text="C"/>
+                <Polygon Points="0 10 10 1 10 5 40 5 40 15 10 15 10 19" Stroke="Black" StrokeThickness="1.5"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="1" Grid.Row="1">
