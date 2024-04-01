@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <Thickness x:Key="ViewboxMargin1">5,5,5,5</Thickness>
-        <FontFamily x:Key="ButtonFontFamily1">Algerian</FontFamily>
+        <FontFamily x:Key="FontFamily1">Algerian</FontFamily>
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -26,91 +26,91 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Viewbox Grid.ColumnSpan="4" Margin="{DynamicResource ViewboxMargin1}">
-            <TextBlock x:Name="number" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+            <TextBlock x:Name="number" FontFamily="{DynamicResource FontFamily1}"/>
         </Viewbox>
         <Button Grid.Column="0" Grid.Row="2">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="7" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="7" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="1" Grid.Row="2">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="8" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="8" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="2" Grid.Row="2">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="9" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="9" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="0" Grid.Row="3">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="4" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="4" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="1" Grid.Row="3">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="5" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="5" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="2" Grid.Row="3">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="6" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="6" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="0" Grid.Row="4">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="1" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="1" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="1" Grid.Row="4">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="2" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="2" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="2" Grid.Row="4">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="3" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="3" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="5" Command="{x:Static local:CustomCommands.zero}">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="0" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="0" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="2" Grid.Row="5">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="." FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="." FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="3" Grid.Row="4" Grid.RowSpan="2" Command="{x:Static local:CustomCommands.command}">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="enter" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="enter" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="4" Grid.Row="2" Grid.RowSpan="2">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="+" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="+" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="0" Grid.Row="1">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="C" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="C" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="1" Grid.Row="1">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="/" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="/" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="2" Grid.Row="1">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="*" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="*" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
         <Button Grid.Column="3" Grid.Row="1">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="-" FontFamily="{DynamicResource ButtonFontFamily1}"/>
+                <TextBlock Text="-" FontFamily="{DynamicResource FontFamily1}"/>
             </Viewbox>
         </Button>
     </Grid>
