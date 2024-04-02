@@ -34,16 +34,6 @@ namespace UILabs
             binding0.Executed += ChangeText;
             this.CommandBindings.Add(binding0);
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MediaElement player = new MediaElement();
-            player.Source = new Uri("sounds/knopka-schelchok-korotkii-zvonkii-blizkii-suhoi1.wav", UriKind.Relative);
-
-            // Изменить громкость
-            player.Volume = 1.0; // Максимальная громкость
-
-            player.Play();
-        }
         private void ChangeText(object sender, RoutedEventArgs e)
         {
             number.Text = "0";
