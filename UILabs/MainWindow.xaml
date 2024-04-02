@@ -72,7 +72,16 @@
                     <EventTrigger.Actions>
                         <BeginStoryboard>
                             <Storyboard>
-                                <ThicknessAnimation Storyboard.TargetProperty="Margin" From="0,0,0,0" To="0,-7,0,0" Duration="0:0:0.5" AutoReverse="True"></ThicknessAnimation>
+                                <ThicknessAnimation Storyboard.TargetProperty="Margin" From="{Binding ElementName=Button, Path=Margin}" To="0,-,0,0" Duration="0:0:0.5"></ThicknessAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="Button.MouseLeave">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ThicknessAnimation Storyboard.TargetProperty="Margin" From="{Binding ElementName=Button, Path=Margin}" To="0,0,0,0" Duration="0:0:0.5"></ThicknessAnimation>
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger.Actions>
