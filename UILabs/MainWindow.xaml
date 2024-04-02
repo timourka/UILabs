@@ -95,7 +95,7 @@
         </Button>
         <Button Grid.Column="0" Grid.Row="1">
             <Viewbox Margin="{DynamicResource ViewboxMargin1}">
-                <TextBlock Text="C" FontFamily="{DynamicResource FontFamily1}"/>
+                <Image Source="images/arrowpointingleft_87473.png"></Image>
             </Viewbox>
         </Button>
         <Button Grid.Column="1" Grid.Row="1">
