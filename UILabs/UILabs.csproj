@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="sounds\knopka-schelchok-korotkii-zvonkii-blizkii-suhoi1.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="sounds\knopka-schelchok-korotkii-zvonkii-blizkii-suhoi1.wav" />
+  </ItemGroup>
+
 </Project>
