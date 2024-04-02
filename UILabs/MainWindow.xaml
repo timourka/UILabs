@@ -67,6 +67,17 @@
             </Viewbox>
         </Button>
         <Button Grid.Column="1" Grid.Row="3">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ThicknessAnimation Storyboard.TargetProperty="Margin" From="0,0,0,0" To="0,-7,0,0" Duration="0:0:0.5" AutoReverse="True"></ThicknessAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Button.Triggers>
             <Viewbox>
                 <TextBlock Text="5"/>
             </Viewbox>
