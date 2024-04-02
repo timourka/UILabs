@@ -72,7 +72,7 @@
                     <EventTrigger.Actions>
                         <BeginStoryboard>
                             <Storyboard>
-                                <ThicknessAnimation Storyboard.TargetProperty="Margin" From="{Binding ElementName=Button, Path=Margin}" To="0,-,0,0" Duration="0:0:0.5"></ThicknessAnimation>
+                                <ThicknessAnimation Storyboard.TargetProperty="Margin" From="{Binding ElementName=Button, Path=Margin}" To="0,-7,0,0" Duration="0:0:0.5"></ThicknessAnimation>
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger.Actions>
