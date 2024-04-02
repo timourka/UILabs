@@ -14,7 +14,18 @@
             <Setter Property="FontFamily" Value="Algerian"/>
         </Style>
         <Style TargetType="Button">
-            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="1,1" >
+                        <GradientStop Color="Red" Offset="0"/>
+                        <GradientStop Color="#FFF1FF00" Offset="0.2" />
+                        <GradientStop Color="#FF00FF27" Offset="0.4" />
+                        <GradientStop Color="#FF00F9FF" Offset="0.6" />
+                        <GradientStop Color="#FF1300FF" Offset="0.8" />
+                        <GradientStop Color="#FFF100FF" Offset="1" />
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
         </Style>
     </Window.Resources>
     <Grid>
